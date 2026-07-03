@@ -1,5 +1,5 @@
 {
-  "projectName": "Sample Project - Change and Technical Implementation Documentation",
+  "projectName": "Login Flow & Dashboard Fixes",
   "executiveSummary": "The user requested changes to the login flow, dashboard UI, and API error handling. The project was reviewed, relevant files were identified, code changes were applied, and validation steps were performed. Several issues related to missing validation, incorrect routing, and UI state updates were fixed.",
   "requests": [
     {

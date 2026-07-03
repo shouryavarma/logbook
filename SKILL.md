@@ -14,6 +14,8 @@ Generate professional, structured PDF documentation from AI-assisted chat conver
 
 Analyze the full conversation before writing the documentation.
 
+Extract the project name from the conversation context and include it as `projectName` in the session data. The project name should reflect what the conversation was about — e.g. "Shopping Cart Checkout Fix", "User Auth Refactor" — not a generic placeholder.
+
 Do not guess or invent changes. If something is not visible in the chat, say "Not available in the provided conversation."
 
 If code edits, commands, terminal output, screenshots, error messages, file paths, or tool usage exist in the chat, include them in the documentation.

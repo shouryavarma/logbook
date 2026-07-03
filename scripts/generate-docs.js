@@ -17,7 +17,7 @@ if (inputPath && existsSync(resolve(inputPath))) {
   sessionData = JSON.parse(readFileSync(resolve(inputPath), 'utf-8'));
 }
 
-const projectName = sessionData.projectName || customTitle || 'Project Change and Technical Implementation Documentation';
+const projectName = customTitle || sessionData.projectName || 'Project Documentation';
 const date = new Date().toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: 'numeric' });
 
 function escapeHtml(str) {
@@ -177,7 +177,7 @@ async function main() {
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>${escapeHtml(projectName)} - ${date}</title>
+<title>${escapeHtml(projectName)}</title>
 <style>
   @page { margin: 2cm; size: A4; }
   body { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 11pt; line-height: 1.6; color: #1a1a1a; }
