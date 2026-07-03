@@ -63,24 +63,18 @@ Activate the skill by saying:
 
 The agent will analyze the conversation, build the HTML document, render it to PDF, and save it where you specify.
 
-## Usage on Mobile Browsers & Web AI Chatbots
+## Mobile Browser Usage
 
-Logbook works in **two tiers** depending on whether the AI agent has access to a terminal:
+Logbook's SKILL.md works on any AI agent — including web chatbots on mobile browsers (Claude web, ChatGPT, Codex, Gemini, etc.).
 
-### Full Tier (CLI-equipped agents — Claude Code, GPT Codex, Gemini CLI)
+1. Open the raw SKILL.md on GitHub:  
+   `https://raw.githubusercontent.com/shouryavarma/logbook/master/SKILL.md`
+2. Copy the full content. Share it with your AI chatbot — paste it into the chat, or send the file.
+3. The agent reads the skill and understands the complete 16-section documentation workflow.
+4. Provide your session/project context when asked.
+5. The agent generates structured documentation following the skill's format.
 
-Clone the repo and use the Node.js PDF renderer as described above.
-
-### Lite Tier (Web chatbots — Claude web, ChatGPT web, Perplexity, etc.)
-
-Web chatbots can't run scripts or render PDFs directly. Instead:
-
-1. **Load the skill** — Paste the raw contents of `SKILL.md` (grab it from [GitHub](https://raw.githubusercontent.com/shouryavarma/logbook/master/SKILL.md)) into the chat, or open the repo link and ask the chatbot to read it.
-2. **Provide your context** — Paste your conversation history, session notes, or structured JSON (see `examples/sample-session.json` for the expected schema).
-3. **The chatbot outputs structured markdown** — It will follow the 16-section format from SKILL.md and produce the full documentation as text.
-4. **Convert to PDF** — Use any free online Markdown-to-PDF converter (e.g. md2pdf, markdowntopdf.com) or paste the output into Google Docs → File → Download → PDF.
-
-> **Tip:** For best results on mobile, ask the chatbot to output the documentation in a single code block so you can copy it in one tap, then paste into a converter.
+The skill itself is the instruction file — no app download, no CLI, no PDF converter needed. The output works in any chat interface.
 
 ## Requirements
 
