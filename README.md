@@ -63,18 +63,34 @@ Activate the skill by saying:
 
 The agent will analyze the conversation, build the HTML document, render it to PDF, and save it where you specify.
 
-## Mobile Browser Usage
+## Mobile & AI Chatbot Usage
 
-Logbook's SKILL.md works on any AI agent — including web chatbots on mobile browsers (Claude web, ChatGPT, Codex, Gemini, etc.).
+Download the skill file:  
+**[⬇ Download SKILL.md](https://raw.githubusercontent.com/shouryavarma/logbook/master/SKILL.md)**  
+(right-click → save, or tap and hold on mobile)
 
-1. Open the raw SKILL.md on GitHub:  
-   `https://raw.githubusercontent.com/shouryavarma/logbook/master/SKILL.md`
-2. Copy the full content. Share it with your AI chatbot — paste it into the chat, or send the file.
-3. The agent reads the skill and understands the complete 16-section documentation workflow.
-4. Provide your session/project context when asked.
-5. The agent generates structured documentation following the skill's format.
+### ChatGPT (web + mobile)
 
-The skill itself is the instruction file — no app download, no CLI, no PDF converter needed. The output works in any chat interface.
+1. Open [chatgpt.com](https://chatgpt.com)
+2. Click the **paperclip / +** icon next to the message input
+3. Upload `SKILL.md` from your device
+4. Then type:  
+   *"I've uploaded a skill file. Read it, then generate project documentation for this session."*
+5. Provide your session/chat context when asked
+
+### Claude (web + mobile)
+
+1. Open [claude.ai](https://claude.ai)
+2. Click the **+ / paperclip** icon or drag `SKILL.md` into the chat
+3. Then type:  
+   *"Read this skill file and follow its instructions to document this session."*
+4. Provide your session/chat context when asked
+
+### Any other AI agent (Codex, Gemini, Perplexity, etc.)
+
+Paste the raw contents from [the download link](https://raw.githubusercontent.com/shouryavarma/logbook/master/SKILL.md) into the chat as your first message, then proceed normally.
+
+The skill file contains everything the agent needs — no external apps, converters, or CLI access required.
 
 ## Requirements
 
