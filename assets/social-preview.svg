@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0f3460"/>
+      <stop offset="100%" stop-color="#e94560"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#bg)"/>
+  <rect x="80" y="80" width="1040" height="440" rx="20" fill="#1a1a3e" stroke="#e94560" stroke-width="2" opacity="0.8"/>
+  <rect x="120" y="120" width="400" height="360" rx="12" fill="#fff" opacity="0.95" stroke="#ccc" stroke-width="1"/>
+  <rect x="140" y="150" width="100" height="12" rx="4" fill="#e94560"/>
+  <rect x="140" y="175" width="220" height="8" rx="3" fill="#bbb"/>
+  <rect x="140" y="193" width="180" height="8" rx="3" fill="#bbb"/>
+  <rect x="140" y="211" width="250" height="8" rx="3" fill="#bbb"/>
+  <rect x="140" y="245" width="100" height="12" rx="4" fill="#0f3460"/>
+  <rect x="140" y="270" width="200" height="8" rx="3" fill="#bbb"/>
+  <rect x="140" y="288" width="160" height="8" rx="3" fill="#bbb"/>
+  <rect x="140" y="306" width="230" height="8" rx="3" fill="#bbb"/>
+  <rect x="140" y="340" width="100" height="12" rx="4" fill="#0f3460"/>
+  <rect x="140" y="365" width="190" height="8" rx="3" fill="#bbb"/>
+  <rect x="140" y="383" width="150" height="8" rx="3" fill="#bbb"/>
+  <rect x="140" y="401" width="210" height="8" rx="3" fill="#bbb"/>
+  <text x="580" y="220" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="700" fill="#ffffff">Project Documentation</text>
+  <text x="580" y="280" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="700" fill="#e94560">Assistant</text>
+  <text x="580" y="340" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#aaa">Analyze conversations. Generate PDFs.</text>
+  <text x="580" y="380" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#777">Works with Claude Code · GPT · Codex · Gemini CLI · Copilot CLI</text>
+  <rect x="580" y="420" width="260" height="50" rx="25" fill="url(#bar)"/>
+  <text x="710" y="452" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600" fill="#fff" text-anchor="middle">16-Section PDF</text>
+</svg>

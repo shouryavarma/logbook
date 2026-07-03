@@ -1,0 +1,16 @@
+{
+  "name": "logbook",
+  "version": "1.0.0",
+  "description": "Analyze AI chat conversations and generate structured PDF project documentation. Works with Claude Code, GPT, Codex, and any CLI AI agent.",
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate-docs.js",
+    "test": "node --test tests/",
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "dependencies": {
+    "playwright": "^1.52.0"
+  },
+  "keywords": ["documentation", "pdf", "logbook", "skill", "claude", "gpt", "codex", "gemini-cli"],
+  "license": "MIT"
+}

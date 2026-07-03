@@ -1,0 +1,5 @@
+node_modules/
+*.pdf
+*.html
+_render.mjs
+.test-output/
